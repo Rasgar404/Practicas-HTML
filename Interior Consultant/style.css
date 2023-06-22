@@ -1,0 +1,156 @@
+* {
+    background-color: #181719;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+.container-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.container-button {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.button-item {
+    position: absolute;
+    left: 50px;
+    width: 110px;
+    height: 32px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 12px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.list-ul {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+.list-ul li {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 7px 0px;
+}
+.this-page {
+    border-bottom: 3px solid #fff;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/*Body*/
+.container-body {
+    margin: 80px 50px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: row;
+}
+.container-words {
+    margin-top: 250px;
+    height: 100px;
+}
+.title-h1 {
+    font-family: 'Lora', serif;    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.parrafo-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 320;
+    font-size: 24px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+.readmore {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+
+.img-room {
+    width: 800px;
+    margin-left: 200px;
+    position: relative;
+    border-radius: 1px;
+}
+
+
+
+.twit{
+    position: absolute;
+    left: 950px;
+    top: 680px;
+    background-color: #181719;
+    padding: 15px 25px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 5px #080808;
+}
+.part1-msg {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.datosuser {
+    display: flex;
+    flex-direction: column;
+}
+.nombre-perfil {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.office-perfil {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #828282;
+}
+.container-message {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.message {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+.footer p {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
